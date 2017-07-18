@@ -1,0 +1,210 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.main {
+width: 60%;
+/*background-color: yellow;*/
+height: 101vh;
+display: flex;
+flex-wrap: wrap;
+}
+
+button {
+  background-color: #aa9121;
+  width: 25%;
+  border-style: solid;
+border-color: black;
+}
+.btn{
+  float: right;
+}
+
+.button-div{
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: Acme;
+}
+body {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+.main-image img{
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+}
+
+.main-image {
+  /*background-image:  url(assets/beer picture.jpg);*/
+  /*background-size: cover;*/
+  /*display: flex;*/
+  order: 1;
+  /*justify-content: flex-end;*/
+  height: 100vh;
+  align-items: flex-start;
+  width: 40%;
+  /*float: right;*/
+  }
+
+
+.grid {
+  background-color: green;
+  width: 33.33333%;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+.grid-1{
+  background-color: #aa9121;
+  width: 66.65%;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-2 {
+  background-color: #362a64;
+  width: 33.33333%;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-3 {
+  background-color: #1c476e;
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-4 {
+  background-color: #aa7121;
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-5 {
+  background-color: #0e497d;
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-6 {
+  background-color: #744f1a;
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-7 {
+  background-color: #332275;
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-8 {
+  background-color: #c2a008;
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 500px) {
+  .main-image{
+  width: 100%;
+  height: 500px;
+
+
+}
+.grid-1 {
+  width: 100%;
+  height: 250px;
+}
+.grid-2{
+  width: 50%;
+
+}
+.grid-3{
+  width: 50%;
+}
+.main {
+  width: 100%;
+}
+.grid-4 {
+  width: 50%;
+}
+.grid-5{
+  width: 50%;
+  background-color: #c2a008;
+}
+.grid-6{
+  width: 50%;
+}
+.grid-7{
+  width: 50%;
+}
+.grid-8{
+  width: 100%;
+}
+}
+
+@media (max-width: 350px) {
+
+  .grid-1 {
+    width: 100%;
+    height: 200px;
+  }
+  .grid-2{
+    width: 100%;
+    height: 200px;
+
+
+  }
+  .grid-3{
+    width: 100%;
+    height: 200px;
+  }
+  .main {
+    width: 100%;
+    height: 200px;
+  }
+  .grid-4 {
+    width: 100%;
+    height: 200px;
+  }
+  .grid-5{
+    width: 100%;
+    height: 200px;
+    background-color: #c2a008;
+  }
+  .grid-6{
+    width: 100%;
+    height: 200px;
+  }
+  .grid-7{
+    width: 100%;
+    height: 200px;
+  }
+  .grid-8{
+    width: 100%;
+    height: 200px;
+  }
+}
